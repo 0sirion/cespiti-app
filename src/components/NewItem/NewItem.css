@@ -1,0 +1,39 @@
+.new-item {
+  font-family: sans-serif;
+  /* background-color: #19699788; */
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  /* border-radius: 12px; */
+  text-align: center;
+  /* box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25); */
+}
+
+.new-item button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #fffffff5;
+  background-color: #099220ec;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-item button:hover,
+.new-item button:active {
+  background-color: #06430b9f;
+  border-color: #067430;
+}
+
+.new-expense button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-item button.alternative:hover,
+.new-item button.alternative:active {
+  background-color: #0a660f60;
+}
